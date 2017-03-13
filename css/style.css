@@ -1,4 +1,34 @@
-#GAME {
-  width: 400;
-  height: 400;
+#game {
+  background-color: #111;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 800px; /** each jpg 20 X 20 px; **/
+}
+
+#player{
+  position: absolute;
+  height: 40px;
+  width: 20px;
+  background-color: white;
+  display: none;
+}
+
+#start{
+  color: white;
+  font-size: 4rem;
+  position: relative;
+  text-decoration: none;
+  top: 4rem;
+}
+
+.shot {
+  position: absolute;
+  height: 10px;
+  width: 4px;
+  left: 387px;
+  bottom: 45px;
+  background-color: #9f6;
 }
